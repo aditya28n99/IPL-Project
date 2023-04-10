@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+
+#table-team{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREA0B9Z51fOyIdabtxiyDgOgWnYc1KWqd37Q&usqp=CAU);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-color: #870000;
+}
+#table-team td {
+  width: 30vw;
+  padding-left: 10vw; 
+}
+#table-team table {
+  margin-left: 20vw;
+}
+.team-page-icon {
+  width: 100px;
+}
+#player-details-con {
+  /* display: flex; */
+  width: 65%;
+  height: 80vh;
+  justify-content: center;
+  align-items:flex-start;
+}
+
+#new-player-det td {
+  /* border: 1px solid black; */
+  width: 30vw;
+  padding-left: 10vw;
+}
+
+#player_detail-img img {
+  width: 35%;
+  margin: 5px 0 -10px 0;
+  margin-left: 19vw;
+}
+#player-details-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#add-team {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-image: url(https://img.freepik.com/free-vector/red-ball-hitting-wicket-stumps-with-bat-black-abstract-splash-background-cricket-fever-concept_1302-5492.jpg?size=626&ext=jpg);
+  background-size: contain;
+}
+#addteamform {
+  background-image: url(https://images.freeimages.com/clg/istock/previews/9417/94178945-background-for-posters-night-cricket-stadium-in-the-spotlight-vector.jpg);
+  border-radius: 20px;
+  margin: 10px 0;
+  width: 40%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 60px 0;
+}
+#addteamform p{
+  font-size: 24px;
+  padding: 5px;
+  color: rgb(49, 27, 27);
+}
+
+
+#addteamform input {
+  width: 70%;
+  border: none;
+  border-bottom: #0a022e 2px solid;
+  border-radius: 5px;
+  padding: 4px;
+}
+#addteamform select {
+  width: 70%;
+  padding: 3px;
+}
+
+#addteamform button {
+  display: block;
+  font-size: 16px;
+  margin-top: 50px;
+  padding: 16px 30px;
+  letter-spacing: 2px;
+  border: 2px solid #0a022e;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#addteamform button:hover {
+  box-shadow: 0 2px 10px rgba(38, 51, 2, 0.5);
+}
+
+#head-con4 {
+  margin-top: -70px;
+  width: 100%;
+  box-shadow: 2px 4px 2px rgb(17 16 16 / 50%);
+  position: fixed;
+  height: 70px;
+
+  background-color: #241785;
+}
+
+.dataodcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #8b0853; */
+  background-image: url(https://img.freepik.com/free-vector/battle-versus-vs-background-sports-game_1017-23766.jpg?size=626&ext=jpg);
+  padding: 10px 0;
+  margin: 10px 50px;
+  width: 100%;
+}
+.dataodcard p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#table-team {
+  width: 100%;
+  border: 1px solid black;
+}
+#table-team table {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  /* background-color: #3ac5a2; */
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+#table-team td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+.player-detail td {
+  padding: 15px 0px;
+  border-radius: 5px;
+  background-color: #22486d; 
+  color: rgba(255, 255, 255, 0.788);
+  background-image: radial-gradient(
+    circle 976px at 58.8% 51%,
+    rgb(116, 30, 90) 50%,
+    rgb(41, 3, 41) 17.3%,
+  );
+}
+.player-detail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #0093e9;
+  background-image: linear-gradient(160deg, #1b1750 0%, #80d0c7 100%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.player-detail div{
+  padding: 5px;
+}
+
+.player-de-bkgrnd{
+  background-image: url(https://img.freepik.com/free-vector/gradient-football-field-background_23-2149011658.jpg?size=626&ext=jpg&ga=GA1.2.742322059.1681126853&semt=ais);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* dropdown of teams */
+
+
+
+/* 
+#slogan {
+  color:white;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #c08037;
+  background-image: linear-gradient(90deg, #111179 0%, #77260f 100%);
+
+
+  cursor: pointer;
+}
+#slogan2 {
+  color:white;
+  justify-content: center;
+  display: flex;
+  margin-top: -30px;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #5ea51c;
+  background-image: linear-gradient(90deg, #470534 0%, #de354f 100%);
+  cursor: pointer;
+}
+#slogan3 {
+  color: white;
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #67229c 0%, #de354f 100%);
+
+  cursor: pointer;
+}
+#slogan4 {
+  color:white;
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #135d7a 0%, #887f07 100%);
+  cursor: pointer;
+}
+.foot-sty{
+  color: #b39c9f;
+}
+ */

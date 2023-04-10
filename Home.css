@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bg{
+    background-image: url(https://scores.iplt20.com/ipl/images/floral-line.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+.Suggestion-box li{
+    /* border: 2px solid red; */
+    list-style: none;
+    padding: 5px 10px 5px 0px;
+    cursor: pointer;
+}
+.icon{
+    padding: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    /* position: absolute; */
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+    background-color: #575181;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 5px 20px;
+    /* margin: 10px; */
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    box-shadow: 0px 0px 5px #5243c0, -0.1px -0.1px 10px rgb(165, 161, 161);
+    cursor: pointer;
+    color: #dd74eb;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  #container_teams {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    padding: 50px 5%;
+    background:  #10172b;
+    background-color: rgb(16, 23, 43);;
+    background-image: url(https://www.iplt20.com/assets/images/bottom-section-bg.svg);
+    background-size: cover;
+      /* background-repeat: no-repeat; */
+  }
+  .minibox {
+    width: 23.2%;
+    margin: 10px;
+  }
+  .minibox {
+    margin-bottom: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 370px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 10px 0px;
+    background-image: url(https://img.freepik.com/free-vector/soccer-vector-stadium_225004-1131.jpg?size=626&ext=jpg&ga=GA1.2.742322059.1681126853&semt=ais);
+    /* background-color:  #19398a;; */
+    border-radius: 5px;
+  }
+  .minibox:hover {
+    box-shadow: rgba(195, 196, 190, 0.7) 0px 2px 10px 5px;
+    margin-top: 3px !important;
+    transition: 0.2s ease-in-out;
+  }
+  .mainimage {
+    width: 75%;
+  }
+  
+.slogen{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    border: 2px solid gray;
+}
+.footbg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: gray; */
+    background-image: url(https://www.iplt20.com/assets/images/header-curl-bg.svg);
+    background-size: cover;
+    color: darkcyan;
+    padding: 20px;
+}
+.footbg h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
